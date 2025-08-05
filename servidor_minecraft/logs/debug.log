@@ -698,3 +698,11 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [05Aug2025 01:56:46.581] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 19 from client
 [05Aug2025 01:56:51.267] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: raflerwq[/127.141.75.184:39577] logged in with entity id 527 at (2.5638230690357435, 77.0, -3.244453610141599)
 [05Aug2025 01:56:51.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raflerwq joined the game
+[05Aug2025 02:01:51.281] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Aug2025 02:01:51.297] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Aug2025 02:02:42.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raflerwq fell from a high place
+[05Aug2025 02:03:07.137] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: raflerwq lost connection: Disconnected
+[05Aug2025 02:03:07.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raflerwq left the game
+[05Aug2025 02:04:07.133] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[05Aug2025 02:04:07.154] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Aug2025 02:04:07.165] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

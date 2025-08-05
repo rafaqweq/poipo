@@ -1,0 +1,700 @@
+[05Aug2025 01:50:54.816] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_server, nogui]
+[05Aug2025 01:50:54.820] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Ubuntu OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1
+[05Aug2025 01:50:54.820] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.4 starting: java version 21.0.8 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[05Aug2025 01:50:54.848] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forge_userdev_server_gametest,forge_dev_client,forge_userdev_data,forge_dev_server_gametest,forge_dev_client_data,forge_userdev_server,forge_client,forge_server,forge_userdev_client_data,forge_userdev_client,forge_dev_data,forge_dev,testharness,forge_userdev,forge_dev_server]
+[05Aug2025 01:50:54.859] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[05Aug2025 01:50:54.873] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,object_holder_definalize,runtime_enum_extender,capability_token_subclass,accesstransformer,runtimedistcleaner]
+[05Aug2025 01:50:54.882] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[05Aug2025 01:50:54.884] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/poipo/servidor_minecraft
+[05Aug2025 01:50:54.884] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/poipo/servidor_minecraft/mods
+[05Aug2025 01:50:54.885] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/poipo/servidor_minecraft/config
+[05Aug2025 01:50:54.885] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/poipo/servidor_minecraft/config/fml.toml
+[05Aug2025 01:50:54.920] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file /workspaces/poipo/servidor_minecraft/config/fml.toml is not correct. Correcting
+[05Aug2025 01:50:54.923] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSkipGLVersions] was corrected from null to []
+[05Aug2025 01:50:54.925] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowLogHelpMessage] was corrected from null to true
+[05Aug2025 01:50:54.926] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowSquir] was corrected from null to false
+[05Aug2025 01:50:54.927] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[05Aug2025 01:50:54.944] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_server
+[05Aug2025 01:50:54.984] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer service: fml: /
+[05Aug2025 01:50:54.986] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer service: mixin: /
+[05Aug2025 01:50:54.986] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[05Aug2025 01:50:54.987] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[05Aug2025 01:50:54.987] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[05Aug2025 01:50:54.988] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[05Aug2025 01:50:55.001] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Detected version data : VersionInfo[forgeVersion=58.0.0, mcVersion=1.21.8, mcpVersion=20250717.105350, forgeGroup=net.minecraftforge]
+[05Aug2025 01:50:55.003] [main/DEBUG] [net.minecraftforge.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 58.0.0
+[05Aug2025 01:50:55.003] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML 58.0.0 loading
+[05Aug2025 01:50:55.003] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ModLauncher version: 10.2.4
+[05Aug2025 01:50:55.004] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found AccessTransformer version: 8.2.2
+[05Aug2025 01:50:55.004] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found RuntimeDistCleaner version: 58.0.0
+[05Aug2025 01:50:55.006] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 5.2.6
+[05Aug2025 01:50:55.006] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Found ForgeSPI version: 7.1.5
+[05Aug2025 01:50:55.006] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[05Aug2025 01:50:55.007] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[05Aug2025 01:50:55.015] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[05Aug2025 01:50:55.016] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[05Aug2025 01:50:55.083] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in SecureModuleClassLoader[SECURE-BOOTSTRAP]@2074185499
+[05Aug2025 01:50:55.098] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///workspaces/poipo/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.7/mixin-0.8.7.jar!/ Service=ModLauncher Env=SERVER
+[05Aug2025 01:50:55.110] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[05Aug2025 01:50:55.111] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[05Aug2025 01:50:55.112] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[05Aug2025 01:50:55.114] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[05Aug2025 01:50:55.116] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[05Aug2025 01:50:55.116] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[05Aug2025 01:50:55.121] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[05Aug2025 01:50:55.122] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[05Aug2025 01:50:55.124] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[05Aug2025 01:50:55.125] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/poipo/servidor_minecraft
+[05Aug2025 01:50:55.125] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/poipo/servidor_minecraft/mods
+[05Aug2025 01:50:55.125] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/poipo/servidor_minecraft/config
+[05Aug2025 01:50:55.125] [main/DEBUG] [net.minecraftforge.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/poipo/servidor_minecraft/config/fml.toml
+[05Aug2025 01:50:55.126] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[05Aug2025 01:50:55.131] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[05Aug2025 01:50:55.138] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[05Aug2025 01:50:55.139] [main/DEBUG] [net.minecraftforge.fml.loading.FMLLoader/CORE]: Using forge_server as launch service
+[05Aug2025 01:50:55.151] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[05Aug2025 01:50:55.154] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'mcp'
+[05Aug2025 01:50:55.154] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {srg=net.minecraftforge.fml.loading.MCPNamingService@7cc9ce8}
+[05Aug2025 01:50:55.154] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[05Aug2025 01:50:55.155] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[05Aug2025 01:50:55.156] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[05Aug2025 01:50:55.156] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[05Aug2025 01:50:55.157] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[05Aug2025 01:50:55.179] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:null),(minecraft:null),(classpath:null),(forge_dev_locator:null),(forge_userdev_locator:null)
+[05Aug2025 01:50:55.179] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:null)
+[05Aug2025 01:50:55.286] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.21.8-58.0.0-server.jar with {minecraft} mods - versions {1.21.8}
+[05Aug2025 01:50:55.397] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/poipo/servidor_minecraft/libraries/net/minecraftforge/forge/1.21.8-58.0.0/forge-1.21.8-58.0.0-universal.jar
+[05Aug2025 01:50:55.415] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.21.8-58.0.0-universal.jar with {forge} mods - versions {58.0.0}
+[05Aug2025 01:50:55.432] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.21.8-58.0.0-server.jar, it does not contain dependency information.
+[05Aug2025 01:50:55.434] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from forge-1.21.8-58.0.0-universal.jar, it does not contain dependency information.
+[05Aug2025 01:50:55.434] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from javafmllanguage-1.21.8-58.0.0.jar, it does not contain dependency information.
+[05Aug2025 01:50:55.434] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mclanguage-1.21.8-58.0.0.jar, it does not contain dependency information.
+[05Aug2025 01:50:55.434] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from lowcodelanguage-1.21.8-58.0.0.jar, it does not contain dependency information.
+[05Aug2025 01:50:55.435] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from fmlcore-1.21.8-58.0.0.jar, it does not contain dependency information.
+[05Aug2025 01:50:55.478] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[05Aug2025 01:50:55.481] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.21.8-58.0.0-server.jar with {minecraft} mods - versions {1.21.8}
+[05Aug2025 01:50:55.484] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/poipo/servidor_minecraft/libraries/net/minecraftforge/forge/1.21.8-58.0.0/forge-1.21.8-58.0.0-server.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[05Aug2025 01:50:55.485] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/poipo/servidor_minecraft/libraries/net/minecraftforge/forge/1.21.8-58.0.0/forge-1.21.8-58.0.0-universal.jar
+[05Aug2025 01:50:55.486] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file forge-1.21.8-58.0.0-universal.jar with {forge} mods - versions {58.0.0}
+[05Aug2025 01:50:55.486] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/poipo/servidor_minecraft/libraries/net/minecraftforge/forge/1.21.8-58.0.0/forge-1.21.8-58.0.0-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[24,]]]
+[05Aug2025 01:50:55.492] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[05Aug2025 01:50:55.492] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[05Aug2025 01:50:55.492] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod /coremods/field_to_method.js
+[05Aug2025 01:50:55.492] [main/DEBUG] [net.minecraftforge.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod /coremods/method_redirector.js
+[05Aug2025 01:50:55.497] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[05Aug2025 01:50:55.526] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[05Aug2025 01:50:55.527] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 58
+[05Aug2025 01:50:55.527] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 1.0
+[05Aug2025 01:50:55.528] [main/DEBUG] [net.minecraftforge.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 58.0.0
+[05Aug2025 01:50:55.532] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Configured system mods: [minecraft, forge]
+[05Aug2025 01:50:55.533] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: minecraft
+[05Aug2025 01:50:55.533] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/]: Found system mod: forge
+[05Aug2025 01:50:55.534] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements (0 mandatory, 0 optional)
+[05Aug2025 01:50:55.535] [main/DEBUG] [net.minecraftforge.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[05Aug2025 01:50:56.038] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 41402 method mappings from methods.csv
+[05Aug2025 01:50:56.101] [main/DEBUG] [net.minecraftforge.fml.loading.MCPNamingService/CORE]: Loaded 40095 field mappings from fields.csv
+[05Aug2025 01:50:56.147] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[05Aug2025 01:50:56.148] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[05Aug2025 01:50:56.151] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[05Aug2025 01:50:56.151] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[05Aug2025 01:50:56.151] [main/DEBUG] [net.minecraftforge.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[05Aug2025 01:50:56.151] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from /coremods/field_to_method.js
+[05Aug2025 01:50:56.474] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[05Aug2025 01:50:56.475] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: Loading CoreMod from /coremods/method_redirector.js
+[05Aug2025 01:50:56.682] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Gathering Forge method redirector replacements
+[05Aug2025 01:50:56.741] [main/DEBUG] [net.minecraftforge.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[05Aug2025 01:50:56.793] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@26d41711 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[05Aug2025 01:50:56.795] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@2f4e40d7 to Target : CLASS {Lnet/minecraft/world/effect/MobEffectInstance;} {} {V}
+[05Aug2025 01:50:56.796] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@60e9c3a5 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[05Aug2025 01:50:56.796] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@7e5843db to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[05Aug2025 01:50:56.796] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@459f703f to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[05Aug2025 01:50:56.796] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[05Aug2025 01:50:56.796] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[05Aug2025 01:50:56.796] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[05Aug2025 01:50:56.797] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[05Aug2025 01:50:56.797] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[05Aug2025 01:50:56.797] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[05Aug2025 01:50:56.797] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[05Aug2025 01:50:56.797] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[05Aug2025 01:50:56.797] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[05Aug2025 01:50:56.797] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[05Aug2025 01:50:56.798] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[05Aug2025 01:50:56.801] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[05Aug2025 01:50:56.801] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[05Aug2025 01:50:56.801] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[05Aug2025 01:50:56.801] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[05Aug2025 01:50:56.802] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[05Aug2025 01:50:56.803] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/level/block/entity/trialspawner/TrialSpawner;} {} {V}
+[05Aug2025 01:50:56.805] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[05Aug2025 01:50:56.805] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[05Aug2025 01:50:56.805] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[05Aug2025 01:50:56.805] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[05Aug2025 01:50:56.805] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[05Aug2025 01:50:56.806] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.minecraftforge.coremod.transformer.CoreModClassTransformer@188ac8a3 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[05Aug2025 01:50:56.806] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[05Aug2025 01:50:56.851] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[05Aug2025 01:50:56.853] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[05Aug2025 01:50:56.854] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixin.synthetic)
+[05Aug2025 01:50:56.856] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixin.synthetic)
+[05Aug2025 01:50:56.856] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixin.synthetic)
+[05Aug2025 01:50:56.857] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixin.synthetic)
+[05Aug2025 01:50:56.857] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixin.synthetic)
+[05Aug2025 01:50:56.857] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin.synthetic)]
+[05Aug2025 01:50:56.858] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[05Aug2025 01:50:56.859] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[05Aug2025 01:50:56.859] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[05Aug2025 01:50:56.859] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[05Aug2025 01:50:56.859] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[05Aug2025 01:50:56.859] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[05Aug2025 01:50:56.859] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(net.minecraftforge.forge)
+[05Aug2025 01:50:56.860] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(net.minecraftforge.forge)
+[05Aug2025 01:50:56.860] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(net.minecraftforge.forge)
+[05Aug2025 01:50:56.860] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(net.minecraftforge.forge)
+[05Aug2025 01:50:56.862] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(net.minecraftforge.forge)
+[05Aug2025 01:50:56.862] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.minecraftforge.forge)]
+[05Aug2025 01:50:56.862] [main/DEBUG] [mixin/]: inject() running with 4 agents
+[05Aug2025 01:50:56.862] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[05Aug2025 01:50:56.862] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin.synthetic)]
+[05Aug2025 01:50:56.863] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[05Aug2025 01:50:56.863] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(net.minecraftforge.forge)]
+[05Aug2025 01:50:56.863] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_server' with arguments [nogui]
+[05Aug2025 01:50:56.934] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[05Aug2025 01:50:57.050] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[05Aug2025 01:50:57.055] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[05Aug2025 01:50:57.055] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[05Aug2025 01:50:57.425] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[05Aug2025 01:50:57.426] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[05Aug2025 01:50:57.434] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/stat
+[05Aug2025 01:50:57.441] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[05Aug2025 01:50:57.441] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[05Aug2025 01:50:57.441] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[05Aug2025 01:50:57.444] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[05Aug2025 01:50:57.444] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[05Aug2025 01:50:57.445] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[05Aug2025 01:50:57.446] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[05Aug2025 01:50:57.446] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[05Aug2025 01:50:57.446] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[05Aug2025 01:50:57.446] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[05Aug2025 01:50:57.449] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[05Aug2025 01:50:57.449] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[05Aug2025 01:50:57.449] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[05Aug2025 01:50:57.449] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[05Aug2025 01:50:57.450] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[05Aug2025 01:50:57.450] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[05Aug2025 01:50:57.450] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[05Aug2025 01:50:57.450] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[05Aug2025 01:50:57.451] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[05Aug2025 01:50:57.451] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[05Aug2025 01:50:57.451] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[05Aug2025 01:50:57.453] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[05Aug2025 01:50:57.453] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[05Aug2025 01:50:57.453] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[05Aug2025 01:50:57.453] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[05Aug2025 01:50:57.454] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[05Aug2025 01:50:57.454] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[05Aug2025 01:50:57.454] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[05Aug2025 01:50:57.454] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[05Aug2025 01:50:57.454] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[05Aug2025 01:50:57.454] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[05Aug2025 01:50:57.455] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[05Aug2025 01:50:57.457] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[05Aug2025 01:50:57.457] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[05Aug2025 01:50:57.457] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[05Aug2025 01:50:57.457] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[05Aug2025 01:50:57.458] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[05Aug2025 01:50:57.458] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[05Aug2025 01:50:57.458] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[05Aug2025 01:50:57.458] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[05Aug2025 01:50:57.458] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[05Aug2025 01:50:57.458] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[05Aug2025 01:50:57.459] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[05Aug2025 01:50:57.459] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[05Aug2025 01:50:57.459] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[05Aug2025 01:50:57.462] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[05Aug2025 01:50:57.462] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[05Aug2025 01:50:57.462] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[05Aug2025 01:50:57.462] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[05Aug2025 01:50:57.462] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[05Aug2025 01:50:57.462] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[05Aug2025 01:50:57.462] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[05Aug2025 01:50:57.463] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[05Aug2025 01:50:57.465] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[05Aug2025 01:50:57.465] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[05Aug2025 01:50:57.465] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[05Aug2025 01:50:57.465] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[05Aug2025 01:50:57.465] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[05Aug2025 01:50:57.466] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[05Aug2025 01:50:57.466] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[05Aug2025 01:50:57.466] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[05Aug2025 01:50:57.466] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[05Aug2025 01:50:57.466] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[05Aug2025 01:50:57.466] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[05Aug2025 01:50:57.467] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[05Aug2025 01:50:57.467] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[05Aug2025 01:50:57.469] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[05Aug2025 01:50:57.469] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[05Aug2025 01:50:57.469] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[05Aug2025 01:50:57.469] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[05Aug2025 01:50:57.470] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[05Aug2025 01:50:57.470] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[05Aug2025 01:50:57.470] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[05Aug2025 01:50:57.470] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[05Aug2025 01:50:57.470] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[05Aug2025 01:50:57.470] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[05Aug2025 01:50:57.471] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[05Aug2025 01:50:57.471] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[05Aug2025 01:50:57.471] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[05Aug2025 01:50:57.473] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[05Aug2025 01:50:57.473] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[05Aug2025 01:50:57.473] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[05Aug2025 01:50:57.473] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[05Aug2025 01:50:57.473] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[05Aug2025 01:50:57.474] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[05Aug2025 01:50:57.474] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[05Aug2025 01:50:57.474] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[05Aug2025 01:50:57.474] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[05Aug2025 01:50:57.474] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[05Aug2025 01:50:57.474] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[05Aug2025 01:50:57.479] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[05Aug2025 01:50:57.481] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[05Aug2025 01:50:57.503] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[05Aug2025 01:50:57.532] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[05Aug2025 01:50:57.535] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[05Aug2025 01:50:57.880] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[05Aug2025 01:50:58.071] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/EntityType.create
+[05Aug2025 01:50:58.659] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[05Aug2025 01:50:58.700] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[05Aug2025 01:50:59.324] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/effect/MobEffectInstance
+[05Aug2025 01:50:59.935] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[05Aug2025 01:51:01.318] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[05Aug2025 01:51:01.319] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/animal/frog/Tadpole.lambda$ageUp$1
+[05Aug2025 01:51:01.400] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[05Aug2025 01:51:02.803] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[05Aug2025 01:51:02.813] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/monster/Spider.finalizeSpawn
+[05Aug2025 01:51:02.890] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[05Aug2025 01:51:02.905] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/monster/Zombie.hurtServer
+[05Aug2025 01:51:02.934] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/monster/Zombie.finalizeSpawn
+[05Aug2025 01:51:02.942] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/monster/Zombie.lambda$convertVillagerToZombieVillager$4
+[05Aug2025 01:51:02.957] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[05Aug2025 01:51:02.966] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/npc/Villager.getBreedOffspring
+[05Aug2025 01:51:02.970] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/npc/Villager.lambda$thunderHit$8
+[05Aug2025 01:51:02.992] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[05Aug2025 01:51:02.998] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/monster/ZombieVillager.lambda$finishConversion$2
+[05Aug2025 01:51:03.054] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[05Aug2025 01:51:03.061] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal.performSpellCasting
+[05Aug2025 01:51:03.194] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[05Aug2025 01:51:03.196] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/animal/horse/SkeletonTrapGoal.createHorse
+[05Aug2025 01:51:03.200] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/animal/horse/SkeletonTrapGoal.createSkeleton
+[05Aug2025 01:51:03.221] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[05Aug2025 01:51:03.224] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/monster/Strider.spawnJockey
+[05Aug2025 01:51:04.088] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[05Aug2025 01:51:04.096] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece.handleDataMarker
+[05Aug2025 01:51:04.107] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[05Aug2025 01:51:04.121] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece.postProcess
+[05Aug2025 01:51:04.127] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece.spawnCat
+[05Aug2025 01:51:04.137] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[05Aug2025 01:51:04.142] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece.spawnElder
+[05Aug2025 01:51:04.156] [main/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[05Aug2025 01:51:04.174] [main/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece.handleDataMarker
+[05Aug2025 01:51:04.845] [main/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 7605
+[05Aug2025 01:51:04.847] [main/DEBUG] [net.minecraftforge.fml.ModWorkManager/LOADING]: Using 2 threads for parallel mod-loading
+[05Aug2025 01:51:04.854] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLJavaModLanguageProvider/LOADING]: Loading FMLModContainer from classloader TransformingClassLoader[TRANSFORMER]@1203638171 - got SecureModuleClassLoader[LAYER PLUGIN]@1526866775
+[05Aug2025 01:51:04.857] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.minecraftforge.common.ForgeMod
+[05Aug2025 01:51:04.862] [main/DEBUG] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Loaded modclass net.minecraftforge.forge/net.minecraftforge.common.ForgeMod with TransformingClassLoader[TRANSFORMER]@1203638171
+[05Aug2025 01:51:04.903] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Forge Version package package net.minecraftforge.versions.forge, Forge, version 0.0 from TransformingClassLoader[TRANSFORMER]@1203638171
+[05Aug2025 01:51:04.906] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge version 58.0.0
+[05Aug2025 01:51:04.906] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge spec 0.0
+[05Aug2025 01:51:04.906] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.forge.ForgeVersion/CORE]: Found Forge group net.minecraftforge
+[05Aug2025 01:51:04.907] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: MCP Version package package net.minecraftforge.versions.mcp, Minecraft, version 1.21.8 from TransformingClassLoader[TRANSFORMER]@1203638171
+[05Aug2025 01:51:04.907] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MC version information 1.21.8
+[05Aug2025 01:51:04.907] [modloading-worker-0/DEBUG] [net.minecraftforge.versions.mcp.MCPVersion/CORE]: Found MCP version information 20250717.105350
+[05Aug2025 01:51:04.907] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 58.0.0, for MC 1.21.8 with MCP 20250717.105350
+[05Aug2025 01:51:04.911] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v58.0.0 Initialized
+[05Aug2025 01:51:04.930] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[05Aug2025 01:51:04.974] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[05Aug2025 01:51:04.974] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
+[05Aug2025 01:51:04.975] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[05Aug2025 01:51:04.975] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe base methods: all available
+[05Aug2025 01:51:04.976] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[05Aug2025 01:51:04.976] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[05Aug2025 01:51:04.976] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.PlatformDependent0$5.run(PlatformDependent0.java:332) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:325) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:334) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:90) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at TRANSFORMER/net.minecraftforge.forge@58.0.0/net.minecraftforge.network.NetworkInitialization.<clinit>(NetworkInitialization.java:27) ~[forge-1.21.8-58.0.0-universal.jar:?]
+	at TRANSFORMER/net.minecraftforge.forge@58.0.0/net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:381) ~[forge-1.21.8-58.0.0-universal.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.21.8-58.0.0/net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:137) ~[javafmllanguage-1.21.8-58.0.0.jar!/:58.0.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.8-58.0.0/net.minecraftforge.fml.ModStateTransitionHelper.lambda$addCompletableFutureTaskForModDispatch$4(ModStateTransitionHelper.java:120) ~[fmlcore-1.21.8-58.0.0.jar!/:1.0]
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[05Aug2025 01:51:04.989] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[05Aug2025 01:51:04.994] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 (in module io.netty.common) cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to module io.netty.common
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:394) ~[?:?]
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:714) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:571) ~[?:?]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:468) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:319) ~[?:?]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:459) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:334) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:90) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.ConstantPool.<init>(ConstantPool.java:34) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.AttributeKey$1.<init>(AttributeKey.java:27) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at SECURE-BOOTSTRAP/io.netty.common@4.1.118.Final/io.netty.util.AttributeKey.<clinit>(AttributeKey.java:27) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
+	at TRANSFORMER/net.minecraftforge.forge@58.0.0/net.minecraftforge.network.NetworkInitialization.<clinit>(NetworkInitialization.java:27) ~[forge-1.21.8-58.0.0-universal.jar:?]
+	at TRANSFORMER/net.minecraftforge.forge@58.0.0/net.minecraftforge.common.ForgeMod.<init>(ForgeMod.java:381) ~[forge-1.21.8-58.0.0-universal.jar:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at LAYER PLUGIN/net.minecraftforge.javafmlmod@1.21.8-58.0.0/net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:137) ~[javafmllanguage-1.21.8-58.0.0.jar!/:58.0.0]
+	at LAYER PLUGIN/net.minecraftforge.fmlcore@1.21.8-58.0.0/net.minecraftforge.fml.ModStateTransitionHelper.lambda$addCompletableFutureTaskForModDispatch$4(ModStateTransitionHelper.java:120) ~[fmlcore-1.21.8-58.0.0.jar!/:1.0]
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[05Aug2025 01:51:04.995] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[05Aug2025 01:51:04.995] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[05Aug2025 01:51:04.995] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[05Aug2025 01:51:04.995] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[05Aug2025 01:51:04.996] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[05Aug2025 01:51:04.996] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[05Aug2025 01:51:04.997] [modloading-worker-0/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[05Aug2025 01:51:04.998] [modloading-worker-0/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[05Aug2025 01:51:05.060] [modloading-worker-0/DEBUG] [net.minecraftforge.network.NetworkInitialization/FORGE_NETWORK]: Registering Network forge:login v0
+[05Aug2025 01:51:05.061] [modloading-worker-0/DEBUG] [net.minecraftforge.network.NetworkInitialization/FORGE_NETWORK]: Registering Network forge:handshake v0
+[05Aug2025 01:51:05.061] [modloading-worker-0/DEBUG] [net.minecraftforge.network.NetworkInitialization/FORGE_NETWORK]: Registering Network forge:handshake v0
+[05Aug2025 01:51:05.061] [modloading-worker-0/DEBUG] [net.minecraftforge.network.NetworkInitialization/FORGE_NETWORK]: Registering Network forge:channel_registration v0
+[05Aug2025 01:51:05.115] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-client.toml for forge tracking
+[05Aug2025 01:51:05.116] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
+[05Aug2025 01:51:05.116] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-common.toml for forge tracking
+[05Aug2025 01:51:05.148] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for forge
+[05Aug2025 01:51:05.165] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/energy/IEnergyStorage;
+[05Aug2025 01:51:05.168] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandler;
+[05Aug2025 01:51:05.168] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/fluids/capability/IFluidHandlerItem;
+[05Aug2025 01:51:05.168] [main/DEBUG] [net.minecraftforge.common.capabilities.CapabilityManager/CAPABILITIES]: Attempting to automatically register: Lnet/minecraftforge/items/IItemHandler;
+[05Aug2025 01:51:05.388] [main/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[05Aug2025 01:51:05.390] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for /workspaces/poipo/servidor_minecraft/config/forge-common.toml
+[05Aug2025 01:51:05.391] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file /workspaces/poipo/servidor_minecraft/config/forge-common.toml
+[05Aug2025 01:51:05.391] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Starting watcher for handler: ConfigFileTypeHandler[COMMON]
+[05Aug2025 01:51:05.400] [main/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file /workspaces/poipo/servidor_minecraft/config/forge-common.toml for changes
+[05Aug2025 01:51:05.403] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/poipo/servidor_minecraft/config/forge-common.toml is not correct. Correcting
+[05Aug2025 01:51:05.409] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[05Aug2025 01:51:05.412] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.logLegacyTagWarnings was corrected from null to its default, OFF. 
+[05Aug2025 01:51:05.414] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general.logLegacyTagWarnings does not match the spec. This may create a backup.
+[05Aug2025 01:51:05.415] [main/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key general does not match the spec. This may create a backup.
+[05Aug2025 01:51:05.421] [main/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-common.toml
+[05Aug2025 01:51:05.884] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[05Aug2025 01:51:05.927] [pool-3-thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-common.toml changed, sending notifies
+[05Aug2025 01:51:05.927] [pool-3-thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[05Aug2025 01:51:06.565] [Forge Version Check/DEBUG] [net.minecraftforge.fml.VersionChecker/]: [forge] Received version check data:
+{
+  "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
+  "promos": {
+    "1.1-latest": "1.3.4.29",
+    "1.2.3-latest": "1.4.1.64",
+    "1.2.4-latest": "2.0.0.68",
+    "1.2.5-latest": "3.4.9.171",
+    "1.3.2-latest": "4.3.5.318",
+    "1.4.0-latest": "5.0.0.326",
+    "1.4.1-latest": "6.0.0.329",
+    "1.4.2-latest": "6.0.1.355",
+    "1.4.3-latest": "6.2.1.358",
+    "1.4.4-latest": "6.3.0.378",
+    "1.4.5-latest": "6.4.2.448",
+    "1.4.6-latest": "6.5.0.489",
+    "1.4.7-latest": "6.6.2.534",
+    "1.5-latest": "7.7.0.598",
+    "1.5.1-latest": "7.7.2.682",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.738",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.2-latest": "10.12.2.1161",
+    "1.7.2-recommended": "10.12.2.1161",
+    "1.7.10_pre4-latest": "10.12.2.1149",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-recommended": "10.13.4.1614",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.2318",
+    "1.9-latest": "12.16.1.1938",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2317",
+    "1.9.4-recommended": "12.17.0.2317",
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2511",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2588",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.5.2860",
+    "1.12.2-recommended": "14.23.5.2859",
+    "1.13.2-latest": "25.0.223",
+    "1.14.2-latest": "26.0.63",
+    "1.14.3-latest": "27.0.60",
+    "1.14.4-latest": "28.2.26",
+    "1.14.4-recommended": "28.2.26",
+    "1.15-latest": "29.0.4",
+    "1.15.1-latest": "30.0.51",
+    "1.15.2-latest": "31.2.57",
+    "1.15.2-recommended": "31.2.57",
+    "1.16.1-latest": "32.0.108",
+    "1.16.2-latest": "33.0.61",
+    "1.16.3-latest": "34.1.42",
+    "1.16.3-recommended": "34.1.0",
+    "1.16.4-latest": "35.1.37",
+    "1.16.4-recommended": "35.1.4",
+    "1.16.5-latest": "36.2.42",
+    "1.16.5-recommended": "36.2.34",
+    "1.17.1-latest": "37.1.1",
+    "1.17.1-recommended": "37.1.1",
+    "1.18-latest": "38.0.17",
+    "1.18.1-latest": "39.1.2",
+    "1.18.1-recommended": "39.1.0",
+    "1.18.2-recommended": "40.3.0",
+    "1.18.2-latest": "40.3.11",
+    "1.19-latest": "41.1.0",
+    "1.19-recommended": "41.1.0",
+    "1.19.1-latest": "42.0.9",
+    "1.19.2-recommended": "43.5.0",
+    "1.19.2-latest": "43.5.1",
+    "1.19.3-latest": "44.1.23",
+    "1.19.3-recommended": "44.1.0",
+    "1.19.4-recommended": "45.4.0",
+    "1.19.4-latest": "45.4.1",
+    "1.20-latest": "46.0.14",
+    "1.20.1-recommended": "47.4.0",
+    "1.20.1-latest": "47.4.6",
+    "1.20.2-latest": "48.1.0",
+    "1.20.2-recommended": "48.1.0",
+    "1.20.3-latest": "49.0.2",
+    "1.20.4-latest": "49.2.0",
+    "1.20.4-recommended": "49.2.0",
+    "1.20.6-latest": "50.2.1",
+    "1.20.6-recommended": "50.2.0",
+    "1.21-latest": "51.0.33",
+    "1.21.1-latest": "52.1.3",
+    "1.21.1-recommended": "52.1.0",
+    "1.21.3-latest": "53.1.2",
+    "1.21.3-recommended": "53.1.0",
+    "1.21.4-latest": "54.1.6",
+    "1.21.4-recommended": "54.1.0",
+    "1.21.5-latest": "55.0.24",
+    "1.21.6-latest": "56.0.9",
+    "1.21.7-latest": "57.0.3",
+    "1.21.8-latest": "58.0.5"
+  }
+}
+[05Aug2025 01:51:06.567] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 58.0.0 Target: 58.0.5
+[05Aug2025 01:51:07.545] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[05Aug2025 01:51:08.583] [main/DEBUG] [net.minecraftforge.resource.ResourcePackLoader/CORE]: Generating PackInfo named mod:forge for mod file /workspaces/poipo/servidor_minecraft/libraries/net/minecraftforge/forge/1.21.8-58.0.0/forge-1.21.8-58.0.0-universal.jar
+[05Aug2025 01:51:10.524] [Worker-Main-1/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/server/commands/SummonCommand
+[05Aug2025 01:51:10.534] [Worker-Main-1/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/server/commands/SummonCommand.createEntity
+[05Aug2025 01:51:11.418] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1407 recipes
+[05Aug2025 01:51:11.447] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1520 advancements
+[05Aug2025 01:51:11.484] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Aug2025 01:51:11.517] [main/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Aug2025 01:51:11.666] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.8
+[05Aug2025 01:51:11.666] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[05Aug2025 01:51:11.666] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[05Aug2025 01:51:11.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[05Aug2025 01:51:11.865] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[05Aug2025 01:51:11.867] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[05Aug2025 01:51:11.874] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+[05Aug2025 01:51:11.874] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.deleteLibAfterLoading: true
+[05Aug2025 01:51:11.874] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.tryPatchShadedId: true
+[05Aug2025 01:51:11.874] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.detectNativeLibraryDuplicates: true
+[05Aug2025 01:51:11.888] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: Successfully loaded the library /tmp/libnetty_transport_native_epoll_x86_6415123457351467703320.so
+[05Aug2025 01:51:11.891] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[05Aug2025 01:51:11.891] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: true
+[05Aug2025 01:51:11.893] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[05Aug2025 01:51:11.893] [Server thread/DEBUG] [io.netty.util.NetUtil/]: /proc/sys/net/core/somaxconn: 4096
+[05Aug2025 01:51:11.899] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 4
+[05Aug2025 01:51:11.905] [Server thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[05Aug2025 01:51:11.911] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[05Aug2025 01:51:11.912] [Server thread/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[05Aug2025 01:51:11.921] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[05Aug2025 01:51:11.925] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[05Aug2025 01:51:11.939] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 17574 (auto-detected)
+[05Aug2025 01:51:11.940] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 00:0d:3a:ff:fe:e4:d4:e5 (auto-detected)
+[05Aug2025 01:51:11.962] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 4
+[05Aug2025 01:51:11.962] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 4
+[05Aug2025 01:51:11.962] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[05Aug2025 01:51:11.962] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[05Aug2025 01:51:11.962] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[05Aug2025 01:51:11.962] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[05Aug2025 01:51:11.962] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[05Aug2025 01:51:11.962] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[05Aug2025 01:51:11.963] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[05Aug2025 01:51:11.963] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[05Aug2025 01:51:11.963] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[05Aug2025 01:51:11.963] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[05Aug2025 01:51:11.963] [Server thread/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+[05Aug2025 01:51:11.971] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[05Aug2025 01:51:11.972] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[05Aug2025 01:51:11.972] [Server thread/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[05Aug2025 01:51:11.977] [Server thread/DEBUG] [io.netty.bootstrap.ChannelInitializerExtensions/]: -Dio.netty.bootstrap.extensions: null
+[05Aug2025 01:51:11.988] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05Aug2025 01:51:11.989] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[05Aug2025 01:51:11.989] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05Aug2025 01:51:11.990] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[05Aug2025 01:51:12.017] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[05Aug2025 01:51:12.018] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Built TOML config for ./world/serverconfig/forge-server.toml
+[05Aug2025 01:51:12.018] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Loaded TOML config file ./world/serverconfig/forge-server.toml
+[05Aug2025 01:51:12.018] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Starting watcher for handler: ConfigFileTypeHandler[SERVER]
+[05Aug2025 01:51:12.021] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Watching TOML config file ./world/serverconfig/forge-server.toml for changes
+[05Aug2025 01:51:12.021] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
+[05Aug2025 01:51:12.022] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SynchronizedConfig{DataHolder:{}}. 
+[05Aug2025 01:51:12.023] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[05Aug2025 01:51:12.023] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.removeErroringBlockEntities does not match the spec. This may create a backup.
+[05Aug2025 01:51:12.023] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[05Aug2025 01:51:12.024] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.removeErroringEntities does not match the spec. This may create a backup.
+[05Aug2025 01:51:12.024] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[05Aug2025 01:51:12.024] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.fullBoundingBoxLadders does not match the spec. This may create a backup.
+[05Aug2025 01:51:12.024] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[05Aug2025 01:51:12.024] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.permissionHandler does not match the spec. This may create a backup.
+[05Aug2025 01:51:12.024] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[05Aug2025 01:51:12.025] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server.advertiseDedicatedServerToLan does not match the spec. This may create a backup.
+[05Aug2025 01:51:12.025] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfigSpec/CORE]: The comment on key server does not match the spec. This may create a backup.
+[05Aug2025 01:51:12.027] [Server thread/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Loaded forge config file forge-server.toml
+[05Aug2025 01:51:12.138] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[05Aug2025 01:51:12.152] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PhantomSpawner
+[05Aug2025 01:51:12.177] [Server thread/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/levelgen/PhantomSpawner.tick
+[05Aug2025 01:51:12.186] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/PatrolSpawner
+[05Aug2025 01:51:12.192] [Server thread/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/levelgen/PatrolSpawner.spawnPatrolMember
+[05Aug2025 01:51:12.194] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/CatSpawner
+[05Aug2025 01:51:12.199] [Server thread/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/npc/CatSpawner.spawnCat
+[05Aug2025 01:51:12.203] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/ai/village/VillageSiege
+[05Aug2025 01:51:12.208] [Server thread/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/ai/village/VillageSiege.trySpawn
+[05Aug2025 01:51:12.530] [pool-5-thread-1/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file forge-server.toml changed, sending notifies
+[05Aug2025 01:51:12.534] [pool-5-thread-1/DEBUG] [net.minecraftforge.common.ForgeConfig/FORGEMOD]: Forge config just got changed on the file system!
+[05Aug2025 01:51:12.674] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/raid/Raid
+[05Aug2025 01:51:12.684] [Server thread/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/entity/raid/Raid.joinRaid
+[05Aug2025 01:51:12.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[05Aug2025 01:51:21.928] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.930] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.931] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.932] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.933] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.934] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.935] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.936] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.937] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.937] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.938] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.939] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.940] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.941] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.943] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.943] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.943] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.944] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:21.945] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 01:51:22.438] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9648 ms
+[05Aug2025 01:51:22.439] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.423s)! For help, type "help"
+[05Aug2025 01:51:22.452] [Server thread/DEBUG] [net.minecraftforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[05Aug2025 01:51:22.479] [Server thread/DEBUG] [net.minecraftforge.common.ForgeI18n/CORE]: Loading I18N data entries: 7605
+[05Aug2025 01:51:22.482] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[05Aug2025 01:51:22.506] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[05Aug2025 01:51:22.506] [Server thread/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[05Aug2025 01:51:22.507] [Server thread/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@49db2c7d
+[05Aug2025 01:51:22.528] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/NaturalSpawner
+[05Aug2025 01:51:22.538] [Server thread/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/NaturalSpawner.spawnCategoryForPosition
+[05Aug2025 01:51:22.549] [Server thread/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/NaturalSpawner.spawnMobsForChunkGeneration
+[05Aug2025 01:51:54.996] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[05Aug2025 01:51:54.996] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[05Aug2025 01:51:54.996] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[05Aug2025 01:51:54.996] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[05Aug2025 01:51:54.996] [Netty Epoll Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[05Aug2025 01:52:05.666] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received client connection with modlist [forge, minecraft, tlskincape]
+[05Aug2025 01:52:05.981] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received client connection with channels [forge:channel_registration, forge:handshake, forge:login]
+[05Aug2025 01:52:05.982] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Version test of 'PRESENT 0' from client : ACCEPTED
+[05Aug2025 01:52:05.982] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Version test of 'PRESENT 0' from client : ACCEPTED
+[05Aug2025 01:52:05.982] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Version test of 'PRESENT 0' from client : ACCEPTED
+[05Aug2025 01:52:05.982] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[05Aug2025 01:52:06.291] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 0 from client
+[05Aug2025 01:52:06.614] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 1 from client
+[05Aug2025 01:52:06.905] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 2 from client
+[05Aug2025 01:52:07.816] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 3 from client
+[05Aug2025 01:52:08.105] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 4 from client
+[05Aug2025 01:52:10.030] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 5 from client
+[05Aug2025 01:52:11.759] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 6 from client
+[05Aug2025 01:52:12.046] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 7 from client
+[05Aug2025 01:52:12.338] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 8 from client
+[05Aug2025 01:52:12.623] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 9 from client
+[05Aug2025 01:52:12.916] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 10 from client
+[05Aug2025 01:52:13.199] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 11 from client
+[05Aug2025 01:52:14.922] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 12 from client
+[05Aug2025 01:52:15.773] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 13 from client
+[05Aug2025 01:52:16.053] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 14 from client
+[05Aug2025 01:52:16.337] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 15 from client
+[05Aug2025 01:52:16.619] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 16 from client
+[05Aug2025 01:52:16.904] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 17 from client
+[05Aug2025 01:52:17.180] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 18 from client
+[05Aug2025 01:52:17.769] [Netty Epoll Server IO #2/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 19 from client
+[05Aug2025 01:52:22.535] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: raflerwq[/127.141.75.184:38565] logged in with entity id 105 at (1.1853140647223512, 77.0, 6.508185458915221)
+[05Aug2025 01:52:22.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raflerwq joined the game
+[05Aug2025 01:52:25.683] [Server thread/DEBUG] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate
+[05Aug2025 01:52:25.690] [Server thread/DEBUG] [net.minecraftforge.coremod.CoreMod.forge/COREMODLOG]: Redirecting method call finalizeSpawn(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; to onFinalizeSpawn(Lnet/minecraft/world/entity/Mob;Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/world/entity/EntitySpawnReason;Lnet/minecraft/world/entity/SpawnGroupData;)Lnet/minecraft/world/entity/SpawnGroupData; inside of net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate.lambda$placeEntities$5
+[05Aug2025 01:54:52.888] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: raflerwq lost connection: Timed out
+[05Aug2025 01:54:52.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raflerwq left the game
+[05Aug2025 01:55:52.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[05Aug2025 01:55:52.943] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Aug2025 01:55:52.986] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Aug2025 01:56:33.639] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received client connection with modlist [forge, minecraft, tlskincape]
+[05Aug2025 01:56:33.911] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received client connection with channels [forge:channel_registration, forge:handshake, forge:login]
+[05Aug2025 01:56:33.911] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:handshake' : Version test of 'PRESENT 0' from client : ACCEPTED
+[05Aug2025 01:56:33.911] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:login' : Version test of 'PRESENT 0' from client : ACCEPTED
+[05Aug2025 01:56:33.911] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Channel 'forge:channel_registration' : Version test of 'PRESENT 0' from client : ACCEPTED
+[05Aug2025 01:56:33.911] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.NetworkRegistry/NETREGISTRY]: Accepting channel list from client
+[05Aug2025 01:56:34.648] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 0 from client
+[05Aug2025 01:56:34.934] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 1 from client
+[05Aug2025 01:56:35.229] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 2 from client
+[05Aug2025 01:56:37.415] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 3 from client
+[05Aug2025 01:56:37.704] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 4 from client
+[05Aug2025 01:56:37.993] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 5 from client
+[05Aug2025 01:56:38.900] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 6 from client
+[05Aug2025 01:56:39.187] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 7 from client
+[05Aug2025 01:56:40.157] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 8 from client
+[05Aug2025 01:56:40.440] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 9 from client
+[05Aug2025 01:56:40.727] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 10 from client
+[05Aug2025 01:56:41.628] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 11 from client
+[05Aug2025 01:56:44.257] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 12 from client
+[05Aug2025 01:56:44.548] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 13 from client
+[05Aug2025 01:56:44.831] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 14 from client
+[05Aug2025 01:56:45.114] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 15 from client
+[05Aug2025 01:56:45.399] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 16 from client
+[05Aug2025 01:56:45.691] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 17 from client
+[05Aug2025 01:56:45.979] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 18 from client
+[05Aug2025 01:56:46.581] [Netty Epoll Server IO #3/DEBUG] [net.minecraftforge.network.ForgePacketHandler/FORGE_PACKET_HANDLER]: Received acknowledgement 19 from client
+[05Aug2025 01:56:51.267] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: raflerwq[/127.141.75.184:39577] logged in with entity id 527 at (2.5638230690357435, 77.0, -3.244453610141599)
+[05Aug2025 01:56:51.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: raflerwq joined the game
